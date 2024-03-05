@@ -2,7 +2,7 @@
 {% block env %}{% endblock env %}
 
 {% block start %}
-def save_file(files: tuple[str], file: str) -> str:
+def save_file(files: tuple[str, ...], file: str) -> str:
     # your code here
     return ""
 {% endblock start %}
